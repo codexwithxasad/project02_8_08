@@ -1,0 +1,72 @@
+[0;93m2026-10-06 07:05:58.997707903 [W:onnxruntime:Default, device_discovery.cc:134 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:07/VMBUS:01/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+HERMES_DASHBOARD_READY port=9119
+  Hermes Web UI → http://127.0.0.1:9119
+
+  Installing MCP 'airtable'
+  Bases, tables, and records from your Airtable workspace.
+  Source: https://support.airtable.com/articles/9897799762-using-the-airtable-mcp-server
+
+  This MCP uses native OAuth 2.1; tokens will be acquired on first connection (browser flow).
+
+  Probing 'airtable' for available tools...
+  Probe failed: MCP OAuth for 'airtable': non-interactive environment and no cached tokens found. Run `hermes mcp login airtable` interactively first to complete initial authorization.
+  Couldn't probe server; installed with no tool filter (all tools enabled when reachable). Run `hermes mcp configure airtable` after first connect to prune.
+
+  ✓ Installed 'airtable' (enabled). Start a new Hermes session to load its tools.
+
+  On first connection Hermes opens a browser to authorize with
+  Airtable (or run `hermes mcp login airtable`). Approve access,
+  then restart the session so tools load.
+
+
+  Installing MCP 'amplitude'
+  Amplitude analytics: charts, dashboards, experiments, flags.
+  Source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+
+  This MCP uses native OAuth 2.1; tokens will be acquired on first connection (browser flow).
+
+  Probing 'amplitude' for available tools...
+  Probe failed: MCP OAuth for 'amplitude': non-interactive environment and no cached tokens found. Run `hermes mcp login amplitude` interactively first to complete initial authorization.
+  Couldn't probe server; installed with no tool filter (all tools enabled when reachable). Run `hermes mcp configure amplitude` after first connect to prune.
+
+  ✓ Installed 'amplitude' (enabled). Start a new Hermes session to load its tools.
+
+  On first connection Hermes opens a browser to authorize with
+  Amplitude (or run `hermes mcp login amplitude`). Approve access,
+  then restart the session so tools load.
+  
+  EU-resident orgs: change mcp_servers.amplitude.url to
+  https://mcp.eu.amplitude.com/mcp in config.yaml.
+
+
+  Installing MCP 'atlassian'
+  Jira issues and Confluence pages via Atlassian's hosted remote MCP.
+  Source: https://support.atlassian.com/rovo/docs/getting-started-with-the-atlassian-remote-mcp-server/
+
+  This MCP uses native OAuth 2.1; tokens will be acquired on first connection (browser flow).
+
+  Probing 'atlassian' for available tools...
+  Probe failed: MCP OAuth for 'atlassian': non-interactive environment and no cached tokens found. Run `hermes mcp login atlassian` interactively first to complete initial authorization.
+  Couldn't probe server; installed with no tool filter (all tools enabled when reachable). Run `hermes mcp configure atlassian` after first connect to prune.
+
+  ✓ Installed 'atlassian' (enabled). Start a new Hermes session to load its tools.
+
+  On first connection Hermes opens a browser to authorize with
+  Atlassian (or run `hermes mcp login atlassian`). Approve access,
+  then restart the session so tools load.
+
+
+  Installing MCP 'attio'
+  CRM records, lists, and notes in Attio.
+  Source: https://attio.com/help/apps/other-apps/using-the-attio-mcp-server
+
+  This MCP uses native OAuth 2.1; tokens will be acquired on first connection (browser flow).
+
+  Applied manifest exclude list (2 entries); everything else stays enabled. Edit mcp_servers.attio.tools.exclude in config.yaml or run `hermes mcp configure attio` to change.
+
+  ✓ Installed 'attio' (enabled). Start a new Hermes session to load its tools.
+
+  On first connection Hermes opens a browser to authorize with
+  Attio (or run `hermes mcp login attio`). Approve access,
+  then restart the session so tools load.
+
